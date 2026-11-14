@@ -1,0 +1,72 @@
+main {
+    margin-top: 60px;
+}
+
+#jumbotron {
+    width: 100%;
+}
+
+.jumbotron {
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(245, 94, 94);
+}
+
+.header-flex {
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+}
+
+.jumbotron-title {
+    color: rgb(210, 224, 14);
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.jumbotron-text {
+    color: rgb(4, 96, 99);
+    text-align: left;
+    padding-bottom: 20px;
+    border-bottom: 8px solid rgb(241, 202, 170);
+}
+/* kamu bisa tambahkan style lainnya */
+.jumbotron-img { 
+    height: 300px; 
+}
+
+
+.mini-text-flex {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.mini-text {
+    color: rgb(88, 86, 219);
+    text-align: left;
+    margin-right: 5px;
+}
+
+.fa-hand-point-up {
+    color: rgb(231, 34, 221);
+    font-size: 20px;
+}
+
+.icon-down {
+    display: none;
+}
+
+.fa-hand-point-down {
+    color: rgb(88, 161, 226);
+    font-size: 20px;
+}
+
+button {
+    background-color: rgb(152, 211, 235);
+    border-style: none;
+}
+
+button:hover {
+    cursor: pointer;
+    transform: translateY(5px);
+}
