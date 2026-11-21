@@ -1,0 +1,76 @@
+body {
+  font-family: 'Spartan', sans-serif;
+  background-image: url(cover1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+}
+.title-section {
+    text-align: center;
+}
+.title-section h1 {
+    font-size: 50pt;
+    color: rgb(223, 181, 46);
+    text-align: center;
+}
+.title-section h5 {
+  color: rgb(102, 60, 6);
+  text-align: center;
+}
+.title-section img {
+  width: 1000px;
+  height: 500px;
+  border: 20px solid rgba(182, 181, 181, 0.281);
+}
+.title-section p {
+  font-size: 30pt;
+  color: rgb(243, 197, 72);
+  text-align: center;
+}
+.menu-section {
+  background-color: rgba(220, 220, 220, 0.637);
+  margin: 90px;
+  padding: 10px;
+  text-align: center;
+}
+.menu-section h3 {
+  font-size: 40pt;
+  text-align: center;
+}
+.menu-item {
+  display: inline-block;
+  text-align: center;
+  padding: 10px;
+  margin: 20px;
+}
+.menu-item img {
+  width: 400px;
+  height: 250px;
+  padding: 10px;
+  transition: opacity 0.3s ease;
+}
+.menu-item img:hover {
+  opacity: 0;
+}
+.menu-item h4 {
+  text-align: center;
+  color: rgb(243, 197, 72);
+}
+.info-table {
+  width: 80%;
+  margin: 40px auto;
+  background-color: rgba(34, 139, 34, 0.342);
+  color: whitesmoke;
+  border-collapse: separate;
+  border-spacing: 5px;
+}
+.info-table th,
+.info-table td {
+  border: 2px solid rgb(84, 82, 87);
+  border-radius: 15px;
+  padding: 15px;
+  text-align: center;
+}
