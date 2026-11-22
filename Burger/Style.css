@@ -50,7 +50,6 @@ body {
   width: 400px;
   height: 250px;
   padding: 10px;
-  transition: opacity 0.3s ease;
 }
 .menu-item img:hover {
   opacity: 0;
@@ -73,4 +72,9 @@ body {
   border-radius: 15px;
   padding: 15px;
   text-align: center;
+}
+.image-cover {
+  width: 1000px;
+  height: 500px;
+  border:20px solid rgba(182, 181, 181, 0.281);
 }
